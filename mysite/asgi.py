@@ -14,8 +14,9 @@ from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
-django_asgi_app = get_asgi_application()
+# 변수는 default로 application으로 되있겠지만 django_asgi_app로 변경
+django_asgi_app = get_asgi_application() 
 
 application = ProtocolTypeRouter({
-    "http" : django_asgi_app
+    "http" : django_asgi_app, 
 })
