@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# 'app' added by DevChoi in 2024.02.13
 INSTALLED_APPS = [
     'channels',
     'daphne',
