@@ -15,6 +15,7 @@ Including another URLconf
 """
 """
 Author : DevChoi Django
+Since : 2024.02.01
 """
 from django.contrib import admin
 from django.urls import path, include
