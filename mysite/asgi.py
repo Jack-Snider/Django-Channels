@@ -17,7 +17,7 @@ import app.routing
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 
-# 변수는 default로 application으로 되있겠지만 django_asgi_app로 변경
+# The default variable is application, but is changed to django_asgi_app.
 django_asgi_app = get_asgi_application() 
 
 application = ProtocolTypeRouter({
