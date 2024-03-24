@@ -14,7 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 """
-Author : DevChoi Django
+Title : Django Channels
+Author : DevChoi 
 Since : 2024.02.01
 """
 from django.contrib import admin
